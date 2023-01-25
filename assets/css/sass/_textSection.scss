@@ -1,0 +1,14 @@
+.section-text-stroke{
+    min-height: 100vh;
+    .text-container {
+        text-align: center;
+        width: 100%;
+        font-size: calc(12vw - 1rem);
+        position: relative;
+        color: $sky-blue-light;
+        -webkit-text-stroke: 1px $king-blue;
+        @include media-up(med){
+            font-size: 5rem;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.ecosistema{
+    min-height: 100vh;
+    background-color: $sky-blue-light;
+    .--editsc{
+        text-align: center;
+        @include media-up (lg){
+            text-align: left;
+        }
+     .title-text, .title-sub {
+        margin: 2rem 0;
+     }  
+     .title-sub{
+        font-weight: 400;
+     }
+     
+    }
+}

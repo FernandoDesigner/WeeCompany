@@ -1,0 +1,43 @@
+.services {
+    background-color: $blue;
+    color: $white;
+    padding: 0 1rem;
+    min-height: 100vh;
+    .box-title {
+        padding: 2rem 0;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: calc(10vw - 1.2rem);
+        @include media-up(sm){
+            font-size: 1.5rem;
+        }
+    }
+    .container-items {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        @include media-up (sm){
+            flex-wrap: wrap;
+            overflow: hidden;
+        }
+        .box-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .service-img {
+                height: 120px;
+                width: 120px;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .box-text{
+                font-weight: bold;
+                text-align: center;
+                @include media-up(med){
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
