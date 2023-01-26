@@ -41,3 +41,12 @@ li {
 .b--shadow {
     box-shadow: rgb(0 0 0 / 3%) 2.4px 0.5px 3.2px;
 }
+.text-underline{
+    text-decoration: underline;
+}
+
+@media screen and(max-width: 1013px){
+    .col-sm-4.d-r{
+        display: none;
+    }
+}
